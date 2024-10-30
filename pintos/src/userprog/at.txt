@@ -1,0 +1,45 @@
+FAIL tests/userprog/sc-boundary-3 -- 커널패닉
+FAIL tests/userprog/create-bad-ptr -- 커널패닉
+FAIL tests/userprog/open-missing
+FAIL tests/userprog/open-empty
+FAIL tests/userprog/open-null
+FAIL tests/userprog/open-bad-ptr 
+FAIL tests/userprog/close-normal -- 커널패닉
+FAIL tests/userprog/close-twice -- 커널패닉
+FAIL tests/userprog/close-bad-fd -- 커널패닉
+FAIL tests/userprog/read-normal 걍 exit(-1)해버림
+FAIL tests/userprog/read-bad-ptr -- 커널패닉
+FAIL tests/userprog/read-boundary -- 커널패닉
+FAIL tests/userprog/read-zero -- 커널패닉
+FAIL tests/userprog/write-normal
+FAIL tests/userprog/write-bad-ptr
+FAIL tests/userprog/write-boundary
+FAIL tests/userprog/write-zero
+
+FAIL tests/userprog/exec-bound-2 -- 커널패닉
+FAIL tests/userprog/exec-bound-3 -- 커널패닉
+
+FAIL tests/userprog/multi-child-fd -- 커널패닉
+FAIL tests/userprog/rox-simple
+FAIL tests/userprog/rox-child
+FAIL tests/userprog/rox-multichild
+FAIL tests/userprog/bad-read
+FAIL tests/userprog/bad-write
+FAIL tests/userprog/bad-read2
+FAIL tests/userprog/bad-write2
+FAIL tests/userprog/bad-jump
+FAIL tests/userprog/bad-jump2
+FAIL tests/userprog/no-vm/multi-oom
+FAIL tests/filesys/base/lg-create
+FAIL tests/filesys/base/lg-full
+FAIL tests/filesys/base/lg-random
+FAIL tests/filesys/base/lg-seq-block
+FAIL tests/filesys/base/lg-seq-random
+FAIL tests/filesys/base/sm-create
+FAIL tests/filesys/base/sm-full
+FAIL tests/filesys/base/sm-random
+FAIL tests/filesys/base/sm-seq-block
+FAIL tests/filesys/base/sm-seq-random
+FAIL tests/filesys/base/syn-read
+FAIL tests/filesys/base/syn-remove
+FAIL tests/filesys/base/syn-write
